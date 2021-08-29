@@ -22,7 +22,7 @@ class HomeController{
 
 	@GetMapping
 	public String home(){
-		return "Welcome to Dockerized Spring Boot App";
+		return "Welcome to Dockerized Spring Boot App with Jenkins";
 	}
 
 	@GetMapping("/family")
